@@ -1,0 +1,14 @@
+PODS:
+  - walnow (0.1.0)
+
+DEPENDENCIES:
+  - walnow (from `../`)
+
+EXTERNAL SOURCES:
+  walnow:
+    :path: ../
+
+SPEC CHECKSUMS:
+  walnow: c9a8f0ef5f8b5ce8d3cbd40d73bf11b6e7abf291
+
+COCOAPODS: 0.39.0

@@ -1,0 +1,6 @@
+framework module walnow {
+  umbrella header "walnow-umbrella.h"
+
+  export *
+  module * { export * }
+}

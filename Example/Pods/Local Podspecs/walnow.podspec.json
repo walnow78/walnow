@@ -1,0 +1,22 @@
+{
+  "name": "walnow",
+  "version": "0.1.0",
+  "summary": "A short description of walnow.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/walnow",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "=": "pawel.walicki@cognizant.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/walnow.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "walnow/Classes/**/*"
+}

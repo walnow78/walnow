@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3340F79B1D671059002010BE /* CustomLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3340F79A1D671059002010BE /* CustomLabel.swift */; };
+		42F811C8B7E342F0ED4DD7509B72F882 /* Pods-walnow_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A3F1DA30DFAD6496CB6D952921BE37A /* Pods-walnow_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		968122D199023C963C84388214D2850C /* walnow-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B8F974F9DB2E7914C7E27B5F4173B59 /* walnow-dummy.m */; };
+		A0CE8A429AB8C0AE434B23B4994BB83D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		A7100192CCF77C897257A52903A6C768 /* Pods-walnow_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CFE181AFC7EAD0781FB080B40943295D /* Pods-walnow_Tests-dummy.m */; };
+		C8DB78A2B93DAF70B6EB5BE9A9DCAD3E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		D64968C9EB2F9D3018A3EA485BB41A40 /* walnow-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 162AF8A246422589FB8633523A52A12A /* walnow-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E229CCA927A2CC7F42B391AB9B2F2969 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4DF0DA5C016FBD58D91F2D7C5F06E13B;
+			remoteInfo = walnow;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B8F974F9DB2E7914C7E27B5F4173B59 /* walnow-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "walnow-dummy.m"; sourceTree = "<group>"; };
+		162AF8A246422589FB8633523A52A12A /* walnow-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "walnow-umbrella.h"; sourceTree = "<group>"; };
+		256B258A4D706B0D323C47DE366BFBE8 /* Pods-walnow_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-walnow_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3340F79A1D671059002010BE /* CustomLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomLabel.swift; sourceTree = "<group>"; };
+		3A06B8CBC28622B3DEC8AE4D18C6BC1D /* Pods_walnow_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_walnow_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		46DCBB046B70E3C27D131FA88F33F93F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62BC1F36CEF142962E0C5C14A01B8C5A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A04A8DDE0503C439FC0915F437CD9C1 /* Pods-walnow_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-walnow_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		8A3F1DA30DFAD6496CB6D952921BE37A /* Pods-walnow_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-walnow_Tests-umbrella.h"; sourceTree = "<group>"; };
+		91481C3246960100E488BEF6E65555AF /* walnow.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = walnow.xcconfig; sourceTree = "<group>"; };
+		AD6E8314593591CBE3C34AEBADBDBB7D /* walnow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = walnow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BB859DF589E219FDF49A0E7155C11C06 /* Pods-walnow_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-walnow_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		C599F3ED9C5018C8339AD8BB5FC623EC /* walnow-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "walnow-prefix.pch"; sourceTree = "<group>"; };
+		CFE181AFC7EAD0781FB080B40943295D /* Pods-walnow_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-walnow_Tests-dummy.m"; sourceTree = "<group>"; };
+		D1F4AC4DCA2160050B6206A456F60D0F /* Pods-walnow_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-walnow_Tests-resources.sh"; sourceTree = "<group>"; };
+		DFAA37773560D5233B47B91C0565E9F6 /* Pods-walnow_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-walnow_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		EB22CFDB347B1CADC39D2516309A96BD /* Pods-walnow_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-walnow_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		ED4C01F3392879D638216A221D5EAD09 /* Pods-walnow_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-walnow_Tests.modulemap"; sourceTree = "<group>"; };
+		F23183646938FC9269D67396AB221BC7 /* walnow.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = walnow.modulemap; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6589C0F7441D4610F898B53EA6059399 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0CE8A429AB8C0AE434B23B4994BB83D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6881F8D8378131A5EA60ABD96DA9E36F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8DB78A2B93DAF70B6EB5BE9A9DCAD3E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0413CB1FB590543F62F611D10643A254 /* walnow */ = {
+			isa = PBXGroup;
+			children = (
+				7E95EAB1866F6721CCCB5E96B2C7C737 /* Support Files */,
+				6FF5F71B21396DAA24717E932CB8E748 /* walnow */,
+			);
+			name = walnow;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		1DEE2C924458A42CE18F0580EB4531BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3A06B8CBC28622B3DEC8AE4D18C6BC1D /* Pods_walnow_Tests.framework */,
+				AD6E8314593591CBE3C34AEBADBDBB7D /* walnow.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4703916A354217A8DC6D2A5A410A6C04 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3340F79A1D671059002010BE /* CustomLabel.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		4D005F9938E970DCBBCE33D0C6DD30C3 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0413CB1FB590543F62F611D10643A254 /* walnow */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		4D4375F274A6430B1CBAE41AA27AF8CE /* Pods-walnow_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				46DCBB046B70E3C27D131FA88F33F93F /* Info.plist */,
+				ED4C01F3392879D638216A221D5EAD09 /* Pods-walnow_Tests.modulemap */,
+				256B258A4D706B0D323C47DE366BFBE8 /* Pods-walnow_Tests-acknowledgements.markdown */,
+				6A04A8DDE0503C439FC0915F437CD9C1 /* Pods-walnow_Tests-acknowledgements.plist */,
+				CFE181AFC7EAD0781FB080B40943295D /* Pods-walnow_Tests-dummy.m */,
+				EB22CFDB347B1CADC39D2516309A96BD /* Pods-walnow_Tests-frameworks.sh */,
+				D1F4AC4DCA2160050B6206A456F60D0F /* Pods-walnow_Tests-resources.sh */,
+				8A3F1DA30DFAD6496CB6D952921BE37A /* Pods-walnow_Tests-umbrella.h */,
+				DFAA37773560D5233B47B91C0565E9F6 /* Pods-walnow_Tests.debug.xcconfig */,
+				BB859DF589E219FDF49A0E7155C11C06 /* Pods-walnow_Tests.release.xcconfig */,
+			);
+			name = "Pods-walnow_Tests";
+			path = "Target Support Files/Pods-walnow_Tests";
+			sourceTree = "<group>";
+		};
+		6FF5F71B21396DAA24717E932CB8E748 /* walnow */ = {
+			isa = PBXGroup;
+			children = (
+				4703916A354217A8DC6D2A5A410A6C04 /* Classes */,
+			);
+			path = walnow;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				4D005F9938E970DCBBCE33D0C6DD30C3 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				1DEE2C924458A42CE18F0580EB4531BC /* Products */,
+				CCE8C12706460D7C552A2D5C075A77F7 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7E95EAB1866F6721CCCB5E96B2C7C737 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				62BC1F36CEF142962E0C5C14A01B8C5A /* Info.plist */,
+				F23183646938FC9269D67396AB221BC7 /* walnow.modulemap */,
+				91481C3246960100E488BEF6E65555AF /* walnow.xcconfig */,
+				0B8F974F9DB2E7914C7E27B5F4173B59 /* walnow-dummy.m */,
+				C599F3ED9C5018C8339AD8BB5FC623EC /* walnow-prefix.pch */,
+				162AF8A246422589FB8633523A52A12A /* walnow-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/walnow";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CCE8C12706460D7C552A2D5C075A77F7 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4D4375F274A6430B1CBAE41AA27AF8CE /* Pods-walnow_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4405F0E229083F541F8AD9F5E0243AAE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D64968C9EB2F9D3018A3EA485BB41A40 /* walnow-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D930F4AEB070C641C56575DFE17DCA9E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42F811C8B7E342F0ED4DD7509B72F882 /* Pods-walnow_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4DF0DA5C016FBD58D91F2D7C5F06E13B /* walnow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB047F3AB80D8C9FAD4B510CB44DC1D4 /* Build configuration list for PBXNativeTarget "walnow" */;
+			buildPhases = (
+				007DCF403B8B14935332B708602028CB /* Sources */,
+				6589C0F7441D4610F898B53EA6059399 /* Frameworks */,
+				4405F0E229083F541F8AD9F5E0243AAE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = walnow;
+			productName = walnow;
+			productReference = AD6E8314593591CBE3C34AEBADBDBB7D /* walnow.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F69C05F9F0593F22B75135FC0406CF33 /* Pods-walnow_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBF715614B335C7B8F1BA18A49C2D28B /* Build configuration list for PBXNativeTarget "Pods-walnow_Tests" */;
+			buildPhases = (
+				AC87F5C8BE8947C5BAF78F5A7D30E47D /* Sources */,
+				6881F8D8378131A5EA60ABD96DA9E36F /* Frameworks */,
+				D930F4AEB070C641C56575DFE17DCA9E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0EB75BBFA1FE3579ACD1C0C9329EF36F /* PBXTargetDependency */,
+			);
+			name = "Pods-walnow_Tests";
+			productName = "Pods-walnow_Tests";
+			productReference = 3A06B8CBC28622B3DEC8AE4D18C6BC1D /* Pods_walnow_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 1DEE2C924458A42CE18F0580EB4531BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F69C05F9F0593F22B75135FC0406CF33 /* Pods-walnow_Tests */,
+				4DF0DA5C016FBD58D91F2D7C5F06E13B /* walnow */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		007DCF403B8B14935332B708602028CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				968122D199023C963C84388214D2850C /* walnow-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC87F5C8BE8947C5BAF78F5A7D30E47D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7100192CCF77C897257A52903A6C768 /* Pods-walnow_Tests-dummy.m in Sources */,
+				3340F79B1D671059002010BE /* CustomLabel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0EB75BBFA1FE3579ACD1C0C9329EF36F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = walnow;
+			target = 4DF0DA5C016FBD58D91F2D7C5F06E13B /* walnow */;
+			targetProxy = E229CCA927A2CC7F42B391AB9B2F2969 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		552D02D5BA751AC2E8790D2811D496CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		6A9861A7C933FDEEC395E4EA7FE77598 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFAA37773560D5233B47B91C0565E9F6 /* Pods-walnow_Tests.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-walnow_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-walnow_Tests/Pods-walnow_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_walnow_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		787A720C81FCE815DB1B319D0162A9BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB859DF589E219FDF49A0E7155C11C06 /* Pods-walnow_Tests.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-walnow_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-walnow_Tests/Pods-walnow_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_walnow_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B16FDBBF31C655BDE3FDD28E98DF80BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91481C3246960100E488BEF6E65555AF /* walnow.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/walnow/walnow-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/walnow/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/walnow/walnow.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = walnow;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FA238B7101F66B1AA9663F1CDFE978B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91481C3246960100E488BEF6E65555AF /* walnow.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/walnow/walnow-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/walnow/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/walnow/walnow.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = walnow;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				552D02D5BA751AC2E8790D2811D496CA /* Debug */,
+				10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB047F3AB80D8C9FAD4B510CB44DC1D4 /* Build configuration list for PBXNativeTarget "walnow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B16FDBBF31C655BDE3FDD28E98DF80BD /* Debug */,
+				FA238B7101F66B1AA9663F1CDFE978B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBF715614B335C7B8F1BA18A49C2D28B /* Build configuration list for PBXNativeTarget "Pods-walnow_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A9861A7C933FDEEC395E4EA7FE77598 /* Debug */,
+				787A720C81FCE815DB1B319D0162A9BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
