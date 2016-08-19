@@ -1,0 +1,6 @@
+use_frameworks!
+target 'walnow_Tests' do
+  pod 'walnow', :path => '../'
+  
+  
+end
